@@ -1,7 +1,10 @@
-# L10
+# Lec 10 Codes
 
 
-For Loop
+
+//FOR LOOP
+
+For Loop Example 
 
     #include <iostream>
     using namespace std;
@@ -13,7 +16,7 @@ For Loop
     }
                                 
 
-For Loop
+Countdown
 
     #include <iostream>
     using namespace std;
@@ -28,7 +31,10 @@ For Loop
       }
     }
   
-  
+
+
+//NESTED LOOPS
+
 Nested Loops
   
       #include <iostream>
