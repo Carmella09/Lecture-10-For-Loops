@@ -69,40 +69,77 @@ Nested Loops
     
 //EXERCISE BREAK
 
+
 Exercise: For Loop
 
-Some counting (in progress)
+Some counting 
 
 • Write a program that counts up from 0 to 50 in increments of 1.
-
+	
     #include <iostream>
+    #include <string>
     using namespace std;
     int main()
     {
-
-        for (int x = 50; x >= 1; x--)
+        for (int x = 0; x < 51; x++)
         {
             cout << x << endl;
-            if (x == 1)
-                cout << "eyy!\n";
         }
-    }
+        cout << endl;
+     }
 
 • Write a program that counts down from 50 to 0 in decrements of 1.
 
-    
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    int main()
+    {
+        for (int x = 50; x >= 0; x--)
+        {
+            cout << x << endl;
+        }
+        cout << endl;
+    }
     
 • Write a program that counts up from 30 to 50 in increments of 1.
  
-    
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    int main()
+    {
+        for (int x = 30; x < 51; x++)
+        {
+            cout << x << endl;
+        }
+    } 
     
 • Write a program that counts down from 50 to 10 in decrements of 2.
 
-    
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    int main()
+    {
+        for (int x = 50; x > 11; x = x - 2)
+        {
+            cout << x << endl;
+        }
+    }
     
 • Write a program that counts up from 100 to 200 in increments of 5.
 
-    
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    int main()
+    {
+        for (int x = 100; x < 201; x = x + 5)
+        {
+            cout << x << endl;
+        }
+    } 
 
 Odd or Even
 
@@ -148,7 +185,7 @@ Seven Stars, Seven Lines
 
 
 
-THE FOR LOOP EXERCISES
+//THE FOR LOOP EXERCISES
 
 
 Exercise: Nested For Loop
@@ -169,14 +206,51 @@ Descending Stars, Seven Lines
     }
     
     
-Rising Stars, Five Lines (in progress)
+Rising Stars, Five Lines
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    int main()
+    {
+        for (int i = 1; i <= 5; i++)
+        { 
+            for (int j = 1; j <= i; j++)
+            {
+                cout << "*"; 
+            }
+            cout << endl; 
+        }
+
+    }
 
 
+Rising and Falling Stars 
 
-Rising and Falling Stars (in progress)
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        for (int i = 1; i <= 5; i++)
+        { 
+            for (int j = 1; j <= i; j++)
+            {
+                cout << "*"; 
+            }
+            cout << endl; 
+        }
 
 
+        for (int i = 1; i <= 5; i++) 
+        {
+            for (int j = i; j <= 5; j++) 
+            { 
+                cout << "*"; 
+            }
+            cout << endl; 
+        }
 
+    }
 
 Exercise: For Loop
 
