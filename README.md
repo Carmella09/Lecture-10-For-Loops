@@ -71,7 +71,7 @@ Nested Loops
 
 Exercise: For Loop
 
-Some counting
+Some counting (in progress)
 
 • Write a program that counts up from 0 to 50 in increments of 1.
 
@@ -124,7 +124,7 @@ Odd or Even
     }
 
 
-Iterate through a word
+Iterate through a word (in progress)
 
 
 
@@ -169,21 +169,21 @@ Descending Stars, Seven Lines
     }
     
     
-Rising Stars, Five Lines
+Rising Stars, Five Lines (in progress)
 
 
 
-Rising and Falling Stars
+Rising and Falling Stars (in progress)
 
 
 
 
 Exercise: For Loop
 
-Cubes
+Cubes (in progress)
 
 
 
-Find the 9s
+Find the 9s (in progress)
 
 
