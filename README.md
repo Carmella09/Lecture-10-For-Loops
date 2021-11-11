@@ -71,6 +71,39 @@ Nested Loops
 
 Exercise: For Loop
 
+Some counting
+
+• Write a program that counts up from 0 to 50 in increments of 1.
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+
+        for (int x = 50; x >= 1; x--)
+        {
+            cout << x << endl;
+            if (x == 1)
+                cout << "eyy!\n";
+        }
+    }
+
+• Write a program that counts down from 50 to 0 in decrements of 1.
+
+    
+    
+• Write a program that counts up from 30 to 50 in increments of 1.
+ 
+    
+    
+• Write a program that counts down from 50 to 10 in decrements of 2.
+
+    
+    
+• Write a program that counts up from 100 to 200 in increments of 5.
+
+    
+
 Odd or Even
 
     #include <iostream>
@@ -89,6 +122,12 @@ Odd or Even
         }
        }
     }
+
+
+Iterate through a word
+
+
+
 
 Exercise: Nested For Loop
 
