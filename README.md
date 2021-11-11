@@ -106,3 +106,45 @@ Seven Stars, Seven Lines
             cout << endl;
         }
     }
+
+
+
+THE FOR LOOP EXERCISES
+
+
+Exercise: Nested For Loop
+
+Descending Stars, Seven Lines
+
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+
+        for (int i = 1; i <= 7; i++) {
+            for (int j = i; j <= 7; j++) {
+                cout << "*";
+            }
+            cout << endl;
+        }
+    }
+    
+    
+Rising Stars, Five Lines
+
+
+
+Rising and Falling Stars
+
+
+
+
+Exercise: For Loop
+
+Cubes
+
+
+
+Find the 9s
+
+
