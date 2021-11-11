@@ -22,9 +22,7 @@ Countdown
     using namespace std;
     int main()
     {
-
-      for (int x = 10; x >= 1 ; x--)
-      {
+      for (int x = 10; x >= 1 ; x--){
         cout << x << endl;
       if (x == 1)
         cout << "Time to Lift off!\n\n";
@@ -37,7 +35,7 @@ Countdown
 
 Nested Loops
   
-      #include <iostream>
+    #include <iostream>
     using namespace std;
     int main()
     {
@@ -53,7 +51,7 @@ Nested Loops
 
 Nested Loops
 
-      #include <iostream>
+    #include <iostream>
     using namespace std;
     int main()
     {
@@ -77,7 +75,6 @@ Some counting
 • Write a program that counts up from 0 to 50 in increments of 1.
 	
     #include <iostream>
-    #include <string>
     using namespace std;
     int main()
     {
@@ -91,7 +88,6 @@ Some counting
 • Write a program that counts down from 50 to 0 in decrements of 1.
 
     #include <iostream>
-    #include <string>
     using namespace std;
     int main()
     {
@@ -105,7 +101,6 @@ Some counting
 • Write a program that counts up from 30 to 50 in increments of 1.
  
     #include <iostream>
-    #include <string>
     using namespace std;
     int main()
     {
@@ -118,7 +113,6 @@ Some counting
 • Write a program that counts down from 50 to 10 in decrements of 2.
 
     #include <iostream>
-    #include <string>
     using namespace std;
     int main()
     {
@@ -131,7 +125,6 @@ Some counting
 • Write a program that counts up from 100 to 200 in increments of 5.
 
     #include <iostream>
-    #include <string>
     using namespace std;
     int main()
     {
@@ -175,8 +168,10 @@ Seven Stars, Seven Lines
     int main()
     {
 
-        for (int i = 0; i < 7; i++) {
-            for (int j = 0; j < 7; j++) {
+        for (int i = 0; i < 7; i++) 
+	{
+            for (int j = 0; j < 7; j++) 
+	    {
                 cout << "*";
             }
             cout << endl;
@@ -197,8 +192,10 @@ Descending Stars, Seven Lines
     int main()
     {
 
-        for (int i = 1; i <= 7; i++) {
-            for (int j = i; j <= 7; j++) {
+        for (int i = 1; i <= 7; i++) 
+	{
+            for (int j = i; j <= 7; j++) 
+	    {
                 cout << "*";
             }
             cout << endl;
@@ -209,7 +206,6 @@ Descending Stars, Seven Lines
 Rising Stars, Five Lines
 
     #include <iostream>
-    #include <string>
     using namespace std;
     int main()
     {
