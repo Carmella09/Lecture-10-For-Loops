@@ -154,9 +154,19 @@ Odd or Even
     }
 
 
-Iterate through a word (in progress)
+Iterate through a word 
 
-
+	#include <iostream>
+	#include <string>
+	using namespace std;
+	int main()
+	{
+		for (int x = 0; x < 4; x++)
+		{
+			string myWord = "ARSH";
+			cout << myWord.at(x) << endl;
+		}
+	}
 
 
 Exercise: Nested For Loop
@@ -250,10 +260,39 @@ Rising and Falling Stars
 
 Exercise: For Loop
 
-Cubes (in progress)
+Cubes 
 
+	#include <iostream>
+	using namespace std;
+	int main()
+	{
+		int n;
+		cout << "To find the cube of the number, you must enter a number: ";
+		cin >> n;
+		for (int x = 1; x <= n; x++)
+		{
+			cout << "\nNumber: " << x;
+			cout << " Cube: " ;
+			int y = x;
+			y = y * y * y;
+			cout << y;
+		}
+	}
 
+Find the 9s 
 
-Find the 9s (in progress)
-
-
+	#include <iostream>
+	using namespace std;
+	int main()
+	{
+		int s = 0;
+		for (int x = 100; x <= 200; x++)
+		{
+			if (x % 9 == 0)
+			{
+				cout << "Number: " << x << endl;
+				s = s + x;
+			}
+		}
+		cout << "\nSum: " << s << endl;
+	}
